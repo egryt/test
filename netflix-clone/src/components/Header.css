@@ -1,0 +1,21 @@
+.sticky-nav {
+    animation: sticky-nav 300ms;
+}
+   
+@keyframes sticky-nav {
+   0% {
+       transform: translateY(-6em)
+   }
+
+   100% {
+       transform: translateY(0)
+   }
+}
+
+
+nav{
+    
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.9837587006960556) 0%, rgba(255,255,255,1) 100%);
+
+}
